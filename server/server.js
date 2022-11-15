@@ -4,7 +4,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 const { v4:uuid } = require('uuid')
 const mongoose = require('mongoose');
-const ZapData = require('./Schema/ZappData')
+const ZapData = require(rootPath()+'./Schema/ZappData')
 
 const port =  process.env.PORT || 5000
 const MONGOCLUSTER = process.env.MONGOCLUSTER
