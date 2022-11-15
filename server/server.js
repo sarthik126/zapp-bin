@@ -6,7 +6,7 @@ const { v4:uuid } = require('uuid')
 const mongoose = require('mongoose');
 const ZapData = require('./Schema/ZappData')
 
-const port =  process.env.PORT || 5000;
+const port =  process.env.PORT || 5000
 const MONGOCLUSTER = process.env.MONGOCLUSTER
 const MONGOPASS = process.env.MONGOPASS
 const mongoURL = `mongodb+srv://${MONGOCLUSTER}:${MONGOPASS}@cluster0.vjbdbr4.mongodb.net/?retryWrites=true&w=majority`

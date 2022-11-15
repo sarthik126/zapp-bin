@@ -17,7 +17,7 @@ export default function NewFile({ id }) {
 //   const baseLink = "http://localhost:3000/";
 //   const serverURL = "http://localhost:5500/";
 
-const baseLink = "https://zappbin.web.app/";
+const baseLink = "https://zapp-bin.web.app/";
 const serverURL = "https://zapp-bin-server.up.railway.app/";
 
   const api = axios.create({
