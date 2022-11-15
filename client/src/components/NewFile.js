@@ -14,8 +14,11 @@ export default function NewFile({ id }) {
   const [loader, setLoader] = useState(true);
   const history = useHistory();
 
-  const baseLink = "http://localhost:3000/";
-  const serverURL = "http://localhost:5500/";
+//   const baseLink = "http://localhost:3000/";
+//   const serverURL = "http://localhost:5500/";
+
+const baseLink = "https://zappbin.web.app/";
+const serverURL = "https://zapp-bin-server.up.railway.app/";
 
   const api = axios.create({
     baseURL: serverURL,
